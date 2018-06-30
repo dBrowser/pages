@@ -1,0 +1,23 @@
+{
+  "name": "@dbrowser/pages",
+  "version": "0.1.1",
+  "description": "Repository For dBrowser's Native Pages.",
+  "contributors": [
+    "Jared Rice Sr. <jared@dwebs.io>",
+    "Bench Computer, Inc. <legal@benchx.io>"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@dwcore/netspeed": "dwcore/netspeed#master",
+    "co": "^4.6.0",
+    "emit-stream": "^0.1.2",
+    "yo-yo": "^1.4.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
