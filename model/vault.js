@@ -11,7 +11,7 @@ const EMIT_CHANGED_WAIT = 30
 // exported api
 // =
 
-module.exports = class RepositoryDPackVault extends DPackVault {
+module.exports = class RepositoryDWebVault extends DWebVault {
   constructor (url) {
     super(url)
 
